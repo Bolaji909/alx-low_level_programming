@@ -2,17 +2,19 @@
 
 /**
  *main - Entry point
- *Return: 0
+ *Return: Always 0 (success)
  */
 int main(void)
 {
 	char c;
 
-	for (c = 'a'; c = 'z'; c++)
-	{
-		if ((c != 'e') && (c != 'q'))
+c = 'a';
+while
+(c <= 'z') {
+	if ((c != 'q' && c != 'e') && c <= 'z')
 		putchar(c);
-	}
+	c++;
+}
 	putchar('\n');
 	return (0);
 }
